@@ -94,6 +94,8 @@ button{
 }
 
 .icons{
+    width: 93%;
+    margin: 0 auto;
     display: flex;
     gap: 30px;
     align-items: center;
@@ -102,6 +104,7 @@ button{
     border-bottom: 1px solid lightgray;
     padding: 35px 0px;
     margin-top: 70px;
+    /* width: 90%; */
 }
 
 
@@ -194,4 +197,74 @@ button{
     width: 90%;
     align-items: center;
     gap: 10px;
+}
+
+/* Feature Section */
+.feature {
+    margin: 30px auto;
+    margin-bottom: 100px;
+    width: 84%;
+    display: flex;
+    justify-content: space-between;
+    /* gap: 8%; */
+    align-items: center;
+    /* border: 1px solid tomato; */
+}
+
+.feature-text{
+    /* border: 1px solid green; */
+    width: 48%;
+}
+
+.feature-img{
+    /* border: 1px solid violet; */
+    width: 40%;
+}
+
+.feature-img img{
+    width: 100%;
+}
+
+.feature-title{
+    color: #0A0826;
+    font-size: 2.2rem;
+    font-weight: 700;
+}
+
+.feature-description{
+    color: #6C6C6C;
+    font-size: 1rem;
+    font-weight: 700;
+    padding: 15px 0px;
+    width: 90%;
+}
+.feature-btn{
+    border-radius: 0;
+}
+
+/* Footer Section */
+
+footer{
+    background-color: #0A0826;
+    padding: 70px 8%;
+    text-align: center;
+    color: white;
+}
+
+.footer-description{
+    font-size: .9rem;
+    padding-bottom: 20px;
+}
+
+.footer-link{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.footer-link>a {
+    transition: 1s;
+}
+.footer-link>a:hover{
+    transform: scale(1.4);
 }
